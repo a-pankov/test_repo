@@ -1,0 +1,1 @@
+g++  -std=c++0x -O3  -Wall -I ~/lib64/libStatGen/include/ -I  /home/apankov/lib64/gzstream/  -L /home/apankov/lib64/gzstream/  -D__ZLIB_AVAILABLE__ -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS  -o fq_hash_remove_chastidy_filter hash_remove_chastidy_filter.cpp  ~/lib64/libStatGen/libStatGen.a -lz -lm -lgzstream
